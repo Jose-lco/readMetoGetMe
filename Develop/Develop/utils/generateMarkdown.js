@@ -31,7 +31,7 @@ ${answers.sources}
 
 ## Authors
 
-** This project was created by: **
+__ This project was created by: __
 * ${answers.name} [![HitCount](http://hits.dwyl.com/${answers.name}/${answers.repo}.svg)](http://hits.dwyl.com/${answers.name}/${answers.repo})
   * Contact info: ${answers.email}
 `;
