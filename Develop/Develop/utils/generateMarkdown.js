@@ -2,11 +2,11 @@ function generateMarkdown(answers) {
   return `
 # ${answers.title}
 
-## Description
+## Description [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
 
 ${answers.description}
 
-## Technologies
+## Technologies used
 
 ${answers.technologies}
 
@@ -18,7 +18,7 @@ ${answers.installation}
 
 ${answers.usage}
 
-## Future Contributions
+## Future Contributions [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/${answers.name}/${answers.repo}/issues)
 
 ${answers.contributing} to making contributions to this project and reporting any issues
 
@@ -31,8 +31,9 @@ ${answers.sources}
 
 ## Authors
 
-This project was created by ${answers.name}
-Contact info: ${answers.email}
+** This project was created by: **
+* ${answers.name} [![HitCount](http://hits.dwyl.com/${answers.name}/${answers.repo}.svg)](http://hits.dwyl.com/${answers.name}/${answers.repo})
+  * Contact info: ${answers.email}
 `;
 }
 

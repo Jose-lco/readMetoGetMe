@@ -15,8 +15,9 @@ const createQuestions = function (option1, option2, option3) {
 };
 createQuestions("input", "title", "What is the name of this application?");
 createQuestions("input", "name", "What is your Github username?");
+createQuestions("input", "repo", "What is the name of this Github repository?")
 createQuestions("input", "description", "Write a description for this application");
-createQuestions("input", "technolgies", "What are the tecnologies used for this application?(Ex: Bootstrap, jQuery)");
+createQuestions("input", "technolgies", "What are the technologies used for this application?");
 createQuestions("input", "installation", "How does a user install this application?");
 createQuestions("input", "usage", "What is the usage of this application?");
 createQuestions("input", "contributing", "Would you like your users to be able to report issues or contribute to this project?");
