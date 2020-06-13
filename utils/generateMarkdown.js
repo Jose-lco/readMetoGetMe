@@ -7,9 +7,11 @@ function generateMarkdown(answers) {
 
 ${answers.description}
 
-##Table of Contents
+## Table of Contents
 
 * [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
 
 ## Technologies used
 
@@ -23,7 +25,7 @@ ${answers.installation}
 
 ${answers.usage}
 
-## Future Contributions [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/${answers.name}/${answers.repo}/issues)
+## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/${answers.name}/${answers.repo}/issues)
 
 ${answers.contributing} to making contributions to this project and reporting any issues
 
@@ -37,7 +39,7 @@ ${answers.sources}
 ## Authors
 
 __ This project was created by: __
-* ${answers.name} [![HitCount](http://hits.dwyl.com/${answers.name}/${answers.repo}.svg)](http://hits.dwyl.com/${answers.name}/${answers.repo})
+* ${answers.name} [![HitCount](http://hits.dwyl.com/${answers.name}/${answers.title}.svg)](http://hits.dwyl.com/${answers.name}/${answers.title})
   * Contact info: ${answers.email}
 `;
 }
