@@ -27,7 +27,7 @@ ${answers.usage}
 
 ## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/${answers.name}/${answers.repo}/issues)
 
-${answers.contributing} to making contributions to this project and reporting any issues
+${answers.contributing} to making contributions to this project and reporting any issues.
 
 ## License
 
@@ -38,7 +38,7 @@ ${answers.sources}
 
 ## Authors
 
-__ This project was created by: __
+**This project was created by:**
 * ${answers.name} [![HitCount](http://hits.dwyl.com/${answers.name}/${answers.title}.svg)](http://hits.dwyl.com/${answers.name}/${answers.title})
   * Contact info: ${answers.email}
 `;
