@@ -32,7 +32,7 @@ npm install
 ``` 
 4. To officially run the application, run this in the command line:
 ```bash
-node server.js
+node index.js
 ```
 ## Usage
 
