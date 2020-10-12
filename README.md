@@ -16,6 +16,7 @@ AS a developer I would like when a user decides to use my application, or when a
 
 * Javascript
 * Node.js
+* Express
 
 ## Installation
 
